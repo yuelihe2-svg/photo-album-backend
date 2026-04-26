@@ -242,7 +242,7 @@ exports.handler = async (event) => {
         )}`,
       });
     }
-
+//test
     console.log("Search results:", JSON.stringify(results, null, 2));
 
     return buildResponse(200, { results });
